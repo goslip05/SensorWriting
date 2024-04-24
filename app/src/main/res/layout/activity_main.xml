@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCAAA4"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/button1"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="24dp"
+        android:shadowColor="#00E90A0A"
+        android:text="SensorReader"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/boogaloo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="128dp"
+        android:onClick="mostrarDatosSensores"
+        android:text="Visualizar Sensores"
+        android:textSize="20sp"
+        app:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/btnSel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="152dp"
+        android:onClick="seleccionarSensores"
+        android:text="Configurar Registro"
+        android:textSize="20sp"
+        app:fontFamily="@font/amaranth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnS" />
+
+</android.support.constraint.ConstraintLayout>

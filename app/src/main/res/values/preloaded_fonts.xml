@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/amaranth</item>
+        <item>@font/boogaloo</item>
+        <item>@font/cherry_swash_bold</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/iceberg</item>
+    </array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCAAA4">
+
+    <TextView
+        android:id="@+id/txtAccX2"
+        android:layout_width="333dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="36dp"
+        android:text="La aceleración proporcionada en los ejes X, Y y Z es de:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:fontFamily="@font/boogaloo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAccX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="60dp"
+        android:text="Sensor No Disponible"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:fontFamily="@font/boogaloo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccX2" />
+
+    <TextView
+        android:id="@+id/txtAccY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:fontFamily="@font/boogaloo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccX" />
+
+    <TextView
+        android:id="@+id/txtAccZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:fontFamily="@font/boogaloo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAccY"
+        app:layout_constraintVertical_bias="0.011" />
+
+</android.support.constraint.ConstraintLayout>
